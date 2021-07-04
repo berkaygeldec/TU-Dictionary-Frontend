@@ -381,7 +381,12 @@ footer{
         margin:0 0 20px 0;
         &.login{
             span{
-                background:url(../img/login.svg) no-repeat;
+                background:url(../img/login-big.svg) no-repeat;
+            }
+        }
+        &.register{
+            span{
+                background:url(../img/register-big.svg) no-repeat;
             }
         }
         span{
@@ -398,6 +403,28 @@ footer{
             margin:0 0 15px 0;
             font-size:13px;
             color:#424242;
+        }
+        textarea{
+            width:100%;
+            height:40px;
+            padding:20px;
+            border: 1px solid #ECEDE8;
+            margin:0 0 20px 0;
+            outline:none;
+            font-size:13px;
+            resize:none;
+            height:110px;
+            max-height:110px;
+        }
+        select{
+            display:block;
+            width:100%;
+            padding:0 10px;
+            height:40px;
+            border: 1px solid #ECEDE8;
+            margin:0 0 20px 0;
+            outline:none;
+            font-size:13px;
         }
         input{
             &[type="text"]{
