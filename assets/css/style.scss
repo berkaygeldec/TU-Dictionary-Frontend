@@ -268,6 +268,20 @@ header{
         border: 1px solid #ECEDE8;
         padding:20px;
         margin:0 0 20px 0;
+        &.result{
+            font-size:16px;
+            .post-content{
+                margin:20px 0 0 0;
+
+                a{
+                    color:#092644;
+                    font-weight:bold;
+                    &:hover{
+                        text-decoration:underline;
+                    }
+                }
+            }
+        }
         .post-title{
             font-weight:600;
             font-size:16px;

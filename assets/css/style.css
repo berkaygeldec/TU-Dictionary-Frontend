@@ -321,6 +321,15 @@ header {
   border: 1px solid #ECEDE8;
   padding: 20px;
   margin: 0 0 20px 0; }
+  .last-post-list .box.result {
+    font-size: 16px; }
+    .last-post-list .box.result .post-content {
+      margin: 20px 0 0 0; }
+      .last-post-list .box.result .post-content a {
+        color: #092644;
+        font-weight: bold; }
+        .last-post-list .box.result .post-content a:hover {
+          text-decoration: underline; }
   .last-post-list .box .post-title {
     font-weight: 600;
     font-size: 16px;
