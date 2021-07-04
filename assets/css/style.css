@@ -225,6 +225,20 @@ header {
       background: url(../img/dark-mode.svg) no-repeat; }
       header .dark-mode a:hover {
         background: url(../img/dark-mode-hover.svg) no-repeat; }
+  header .for-users {
+    margin: 7.5px 0 0 20px; }
+    header .for-users a {
+      color: #424242; }
+      header .for-users a:hover span {
+        color: #092644; }
+      header .for-users a span {
+        display: block;
+        background: url(../img/avatar.svg) no-repeat;
+        padding: 0 0 0 40px;
+        line-height: 30px;
+        font-size: 14px;
+        font-weight: 600;
+        color: #424242; }
   header .for-guests ul {
     display: flex;
     flex-direction: row;

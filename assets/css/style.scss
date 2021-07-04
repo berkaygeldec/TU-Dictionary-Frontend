@@ -126,6 +126,26 @@ header{
             }
         }
     }
+    .for-users{
+        margin:7.5px 0 0 20px;
+            a{
+                color:#424242;
+                &:hover{
+                    span{
+                        color:#092644;
+                    }
+                }
+                span{
+                    display:block;
+                    background:url(../img/avatar.svg) no-repeat;
+                    padding:0 0 0 40px;
+                    line-height:30px;
+                    font-size:14px;
+                    font-weight:600;
+                    color:#424242;
+                }
+            } 
+    }
     .for-guests{
         ul {
             display:flex;
