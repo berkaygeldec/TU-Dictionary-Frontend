@@ -488,4 +488,38 @@ footer {
     .white-box .white-box-content .login-problem a:last-child {
       margin: 0; }
 
+.profile-box {
+  background: #FFFFFF;
+  border: 1px solid #ECEDE8;
+  padding: 20px;
+  margin: 0 0 20px 0; }
+  .profile-box .profile-title {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    .profile-box .profile-title span {
+      background: url(../img/author.svg) no-repeat;
+      padding: 0 0 0 30px;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px; }
+    .profile-box .profile-title a {
+      width: 16px;
+      height: 16px;
+      display: block;
+      margin: 4px 0 0 10px; }
+      .profile-box .profile-title a.facebook {
+        background: url(../img/facebook.svg) no-repeat; }
+        .profile-box .profile-title a.facebook:hover {
+          background: url(../img/facebook-hover.svg) no-repeat; }
+      .profile-box .profile-title a.twitter {
+        background: url(../img/twitter.svg) no-repeat; }
+        .profile-box .profile-title a.twitter:hover {
+          background: url(../img/twitter-hover.svg) no-repeat; }
+  .profile-box .profile-description p {
+    color: #424242;
+    font-size: 13px;
+    margin: 15px 0 0 0;
+    line-height: 20px; }
+
 /*# sourceMappingURL=style.css.map */
