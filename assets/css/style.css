@@ -439,6 +439,8 @@ footer {
     outline: none;
     border: none;
     margin: 0 0 20px 0; }
+    .white-box .white-box-content input[type="submit"].mb0 {
+      margin-bottom: 0; }
     .white-box .white-box-content input[type="submit"]:hover {
       background-color: #000; }
   .white-box .white-box-content .login-problem span {
